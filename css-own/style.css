@@ -89,9 +89,9 @@ a{
     text-decoration: none !important;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 319px) {
     .myslf-box{
-        width: 95%;
+        width: 100%;
     }
 
     .myslf-box-upper{
@@ -115,9 +115,9 @@ a{
 
   }
 
-  @media (max-width: 900px) {
+  @media (min-width: 426px) {
     .myslf-box{
-        width: 95%;
+        width: 65%;
     }
 
     .myslf-box-upper{
@@ -130,7 +130,7 @@ a{
     }
 
     ul{
-        width: 75vw;
+        width: 50vw;
     }
 
     .myslf-item{
@@ -140,9 +140,9 @@ a{
     }
 
   }
-  @media (max-width: 1025px) {
+  @media (min-width: 1025px) {
     .myslf-box{
-        width: 60%;
+        width: 50%;
     }
 
     .myslf-box-upper{
@@ -166,7 +166,7 @@ a{
 
   }
 
-  @media (max-width: 1439px) {
+  @media (min-width: 1439px) {
     .myslf-box{
         width: 40%;
     }
@@ -182,6 +182,32 @@ a{
 
     ul{
         width: 35vw;
+    }
+
+    .myslf-item{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+  }
+
+  @media (min-width: 1445px) {
+    .myslf-box{
+        width: 30%;
+    }
+
+    .myslf-box-upper{
+        height: 14vh;
+        width: 100%;
+    }
+
+    .myslf-box-bottom{
+        width: 100%;
+    }
+
+    ul{
+        width: 25vw;
     }
 
     .myslf-item{
