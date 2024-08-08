@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+}
+
+.myslf-box{
+    background-color: rgb(0, 0, 0);
+    height: 65vh;
+    width: 20vw;
+    border-radius: 50px;
+    border: 3px rgb(255, 255, 255) solid;
+}
+
+.myslf-box-upper{
+    height: 14vh;
+    width: 20vw;
+    border-bottom: 2px white solid;
+}
+
+.myslf-box-bottom{
+    height: 51vh;
+    width: 20vw;
+}
+
+ol{
+    text-align: center;
+}
+
+.myslf-item{
+    background-color: rgb(15, 15, 15);
+    width: 18vw;
+    height: 7vh;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    color: white;
+}
+
+.item-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    width: 10vw;
+    text-align: left;
+}
+
+.myslf-box-title{
+    color: rgb(255, 255, 255) ;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 15px;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.myslf-box-desc{
+    color: rgb(255, 0, 221);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.empty{
+    width: 1vw; 
+}
+
+.logo{
+    height: 7vh;
+    width: 7vw;
+}
+
+.square{
+    max-height: 4vh;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+@media (max-width: 900px) {
+    .myslf-box{
+        width: 95%;
+    }
+
+    .myslf-box-upper{
+        height: 14vh;
+        width: 100%;
+    }
+
+    .myslf-box-bottom{
+        width: 100%;
+    }
+
+    ul{
+        width: 75vw;
+    }
+
+    .myslf-item{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+  }
+
+  @media (max-width: 900px) {
+    .myslf-box{
+        width: 95%;
+    }
+
+    .myslf-box-upper{
+        height: 14vh;
+        width: 100%;
+    }
+
+    .myslf-box-bottom{
+        width: 100%;
+    }
+
+    ul{
+        width: 75vw;
+    }
+
+    .myslf-item{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+  }
+  @media (max-width: 1025px) {
+    .myslf-box{
+        width: 60%;
+    }
+
+    .myslf-box-upper{
+        height: 14vh;
+        width: 100%;
+    }
+
+    .myslf-box-bottom{
+        width: 100%;
+    }
+
+    ul{
+        width: 40vw;
+    }
+
+    .myslf-item{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+  }
+
+  @media (max-width: 1439px) {
+    .myslf-box{
+        width: 40%;
+    }
+
+    .myslf-box-upper{
+        height: 14vh;
+        width: 100%;
+    }
+
+    .myslf-box-bottom{
+        width: 100%;
+    }
+
+    ul{
+        width: 35vw;
+    }
+
+    .myslf-item{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+  }
+
+
+
